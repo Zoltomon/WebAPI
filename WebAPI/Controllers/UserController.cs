@@ -7,11 +7,11 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserViewController : Controller
+    public class UserController : Controller
     {
       
         private readonly IUser _users;
-        public UserViewController(IUser users)
+        public UserController(IUser users)
         {
             _users = users;
         }

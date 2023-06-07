@@ -3,6 +3,6 @@
     public class StatusDTO
     {
         public int Id { get; set; }
-        public string NameRole { get; set; }
+        public string NameStatus { get; set; }
     }
 }
