@@ -4,7 +4,7 @@ using WebAPI.Models;
 
 namespace WebAPI.Classes
 {
-    public class UserClass:InterfaceUser
+    public class UserClass:IUser
     {
         private readonly _1301123ZoltoContext _context;
         public UserClass(_1301123ZoltoContext context)
@@ -18,12 +18,12 @@ namespace WebAPI.Classes
             .Select(
                         x => new UserDTO
                         {
-                            Login = x.Login,
-                            Password = x.Password,
+                            UserLogin = x.Login,
+                            UserPassword = x.Password,
                             Role = x.Role.NameRole,
                             Status = x.Status.NameStatus
                         }
-                ).Where(u => u.Login == Login && u.Password == Password).ToList();
+                ).Where(u => u.UserLogin == Login && u.UserPassword == Password).ToList();
 
             if (data != null)
             {

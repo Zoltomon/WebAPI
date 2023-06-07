@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AC38GGFFFeFe7JKV1fTXLb1CTKhBQv0a2Zcmi3l4jOvLELk/IG3tKoIQkyOETQN6XLVyXECzi5FpTIKiSqP61Q==",
+  "dgSpecHash": "wqZJpsczrNkk72XoRwFkcEu1d/YQk99j3UPCr5yCrY2D5ymkJYnAhNviPGA62PYlKNsMOYzfrDh41/I2RqcPhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\ZoltoAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",

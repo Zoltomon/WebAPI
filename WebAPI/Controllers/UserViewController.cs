@@ -5,11 +5,13 @@ using WebAPI.Interface;
 
 namespace WebAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserViewController : Controller
     {
       
-        private readonly InterfaceUser _users;
-        public UserViewController(InterfaceUser users)
+        private readonly IUser _users;
+        public UserViewController(IUser users)
         {
             _users = users;
         }
