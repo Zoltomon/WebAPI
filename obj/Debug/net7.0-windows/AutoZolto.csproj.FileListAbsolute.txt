@@ -46,14 +46,12 @@ C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\bin\Debug\net7.0-windows\runtime
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\AutoZolto.csproj.AssemblyReference.cache
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\MainWindow.g.cs
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\LoginPage.g.cs
-C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\MainPage.g.cs
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\RegPage.g.cs
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\App.g.cs
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\AutoZolto_MarkupCompile.cache
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\AutoZolto_MarkupCompile.lref
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\MainWindow.baml
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\LoginPage.baml
-C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\MainPage.baml
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\RegPage.baml
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\AutoZolto.g.resources
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\AutoZolto.GeneratedMSBuildEditorConfig.editorconfig
@@ -66,3 +64,10 @@ C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\refint\
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\AutoZolto.pdb
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\AutoZolto.genruntimeconfig.cache
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\ref\AutoZolto.dll
+C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\bin\Debug\net7.0-windows\BCrypt.Net-Next.dll
+C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\App.baml
+C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\Admin\MainPage.g.cs
+C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\Client\UserPage.g.cs
+C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\Admin\MainPage.baml
+C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\obj\Debug\net7.0-windows\Pages\Client\UserPage.baml

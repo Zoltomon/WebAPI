@@ -13,20 +13,28 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0">
-            <TextBlock Text="Форма авторизации"/>
-        </StackPanel>
-        <StackPanel Grid.Row="1">
-            <TextBlock Text="Введите логин:"/>
-            <TextBox Name="TxbLog"/>
-            <TextBlock Text="Введите пароль:"/>
-            <TextBox Name="TxbPass"/>
-            <Button Name="BtnAuto"
-                    Click="BtnAuto_Click"
-                    Content="Вход"/>
-            <Button Name="BtnReg"
-                    Click="BtnReg_Click"
-                    Content="Регистрация"/>
-        </StackPanel>
+        <Border Grid.Row="0" BorderThickness="5" CornerRadius="10,10,0,0" BorderBrush="Orange">
+            <StackPanel Grid.Row="0" Background="Orange">
+                <TextBlock Text="Форма авторизации"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1"  BorderThickness="5" CornerRadius="0,0,10,10" BorderBrush="Orange">
+            <StackPanel Grid.Row="1" Background="Orange">
+                <TextBlock Text="Введите логин:"/>
+                <TextBox Name="TxbLog" Margin="2"/>
+                <TextBlock Text="Введите пароль:"/>
+                <TextBox Name="TxbPass" Margin="2"/>
+                <Button Name="BtnAuto"
+                        Margin="2"
+                        Style="{DynamicResource RoundedButtonStyle}"
+                        Click="BtnAuto_Click"
+                        Content="Вход"/>
+                <Button Name="BtnReg"
+                        Style="{DynamicResource RoundedButtonStyle}"
+                        Margin="2"
+                        Click="BtnReg_Click"
+                        Content="Регистрация"/>
+            </StackPanel>
+        </Border>
     </Grid>
 </Page>

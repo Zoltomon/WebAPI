@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AutoZolto.Pages
+namespace AutoZolto.Pages.Client
 {
     /// <summary>
-    /// Логика взаимодействия для MainPage.xaml
+    /// Логика взаимодействия для UserPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class UserPage : Page
     {
-        public MainPage()
+        public UserPage()
         {
             InitializeComponent();
         }

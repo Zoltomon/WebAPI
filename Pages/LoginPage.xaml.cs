@@ -42,9 +42,11 @@ namespace AutoZolto.Pages
                 /// <summary> 
                 /// Соединение с базой данных, реализация возможности авторизации
                 /// </summary>
-                bool verif = BCrypt.Net.BCrypt.Verify(TxbPass.Text, )
-                var _signIn = JsonConvert.DeserializeObject<SignIn>(responseContent);
-                string url = $"https://localhost:7008/api/User?UserLogin={TxbLog.Text}&UserPassword={TxbPass.Text}";
+                /// 
+
+                var data = ConnectDB.connect.Users.FirstOrDefault();
+                bool verif = BCrypt.Net.BCrypt.Verify(TxbPass.Text, data.Password);
+                string url = $"https://localhost:7008/api/User?UserLogin={TxbLog.Text}&UserPassword={verif}";
                 HttpClient client = new HttpClient();
 
                 var response = await client.GetAsync(url);

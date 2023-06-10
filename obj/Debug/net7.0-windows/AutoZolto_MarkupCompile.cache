@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\dorzh\source\repos\AutoZolto\AutoZolto\App.xaml
-4-1716463379
+5268593966
 
-71414812251
-226583221955
-MainWindow.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RegPage.xaml;
+13-467615139
+228-84189327
+MainWindow.xaml;Pages\Admin\MainPage.xaml;Pages\Client\UserPage.xaml;Pages\LoginPage.xaml;Pages\RegPage.xaml;
 
 False
 
