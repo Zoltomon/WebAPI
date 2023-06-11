@@ -3,7 +3,7 @@ using WebAPI.Interface;
 using WebAPI.Classes.DTO;
 namespace WebAPI.Controllers
 {
-    [Route("api/")]
+    [Route("api/UserPost")]
     [ApiController]
 
     public class UserPostController : Controller

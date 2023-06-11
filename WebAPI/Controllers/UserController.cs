@@ -5,7 +5,7 @@ using WebAPI.Interface;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/User")]
     [ApiController]
     public class UserController : Controller
     {

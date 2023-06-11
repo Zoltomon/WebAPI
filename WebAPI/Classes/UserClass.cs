@@ -14,26 +14,26 @@ namespace WebAPI.Classes
 
         public List<UserDTO> FirstOfDefault(string Login, string Password)
         {
-            List<UserDTO> data = _context.Users
-            .Select(
-                        x => new UserDTO
-                        {
-                            UserLogin = x.Login,
-                            UserPassword = x.Password,
-                            Role = x.Role.NameRole,
-                            Status = x.Status.NameStatus
-                        }
-                ).Where(u => u.UserLogin == Login && u.UserPassword == Password).ToList();
+            User user = _context.Users.FirstOrDefault(u => u.Login == Login);
 
-            if (data != null)
+            if (user != null && BCrypt.Net.BCrypt.Verify(Password, user.Password))
             {
-                return data;
+                List<UserDTO> data = _context.Users
+                    .Where(u => u.Login == Login)
+                    .Select(x => new UserDTO
+                    {
+                        UserLogin = x.Login,
+                        UserPassword = x.Password,
+                        Role = x.Role.NameRole,
+                        Status = x.Status.NameStatus
+                    })
+                    .ToList();
 
+                return data;
             }
             else
             {
-                return new List<UserDTO>() {
-                };
+                return new List<UserDTO>();
             }
         }
 
